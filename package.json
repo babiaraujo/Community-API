@@ -1,0 +1,31 @@
+{
+    "name": "community-api",
+    "version": "1.0.0",
+    "description": "Nesse projeto desenvolveremos uma API para uma comunidade com feed e posts, onde as pessoas possam se conectar e falar sobre assuntos em comum.",
+    "main": "index.js",
+    "scripts": {
+      "dev": "tsx watch src/server.ts",
+      "start": "node build/server.js",
+      "build": "tsup src --out-dir build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@rocketseat/eslint-config": "2.1.0",
+      "@types/bcryptjs": "2.4.6",
+      "@types/node": "20.10.4",
+      "@types/supertest": "6.0.2",
+      "npm-run-all": "4.1.5",
+      "prisma": "5.7.0",
+      "supertest": "6.3.4",
+      "tsup": "8.0.1",
+      "tsx": "4.6.2",
+      "typescript": "5.3.3"
+    },
+    "dependencies": {
+      "@prisma/client": "5.7.0",
+      "zod": "3.22.4"
+    }
+  }
+  
